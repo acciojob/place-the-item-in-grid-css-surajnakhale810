@@ -7,31 +7,27 @@
 }
 .holder{
     display: grid;
-    width: 200px;
-    height: 200px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    /* width: 200px;
+    height: 200px; */
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     /* border: 1px solid black; */
 }
 .item1{
     background-color: aqua;
-    /* width: 200px;
-    height: 200px; */
+   
 }
 .item2{
     background-color: rgb(228, 105, 24);
-    /* width: 200px;
-    height: 200px; */
+   
 }
 .item3{
     background-color: rgb(37, 13, 173);
-    /* width: 200px; */
-    /* height: 200px; */
+    
 }
 .item4{
     background-color: rgb(19, 212, 35);
-    /* width: 200px;
-    height: 200px; */
+
 }
